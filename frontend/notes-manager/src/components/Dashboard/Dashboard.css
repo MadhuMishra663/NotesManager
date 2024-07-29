@@ -1,0 +1,90 @@
+src/components/Dashboard/Dashboard.css
+.dashboard-container {
+  padding: 20px;
+ 
+}
+.dashboard-container h2, .dashboard-container h3{
+  color: white;
+}
+.note-section, .saved-notes-section {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.saved-notes-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.saved-notes-section li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saved-notes-section li.important {
+  background-color: #ffd700;
+}
+
+.saved-notes-section li button {
+  margin-left: 10px;
+}
+/* src/components/Dashboard/Dashboard.css */
+.dashboard-container {
+  padding: 20px;
+}
+
+.note-section {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.saved-notes-section {
+  margin-top: 20px;
+}
+
+.note-item {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.note-item.important {
+  background-color: #ffeb3b; /* Yellow background for important notes */
+}
+
+.note-item button {
+  margin-left: 10px;
+}

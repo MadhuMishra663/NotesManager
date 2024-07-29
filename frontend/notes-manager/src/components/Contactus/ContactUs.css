@@ -1,0 +1,18 @@
+/* src/components/ContactUs/ContactUs.css */
+.contact-us {
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    background-color: #e44b23;
+  }
+  
+  .contact-us h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact-us p {
+    font-size: 18px;
+    color:white;
+  }
+  

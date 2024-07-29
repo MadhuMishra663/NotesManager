@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url(https://img.freepik.com/premium-photo/open-book-wooden-table-with-blurred-library-background-eyelevel-view_648736-405.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .auth-container, .dashboard {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-container h2, .dashboard h2 {
+    text-align: center;
+  }
+  
+  .auth-container form, .dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container input, .dashboard input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-container button, .dashboard button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover, .dashboard button:hover {
+    background: #0056b3;
+  }
+  
+  .auth-container p, .dashboard .notes-container {
+    text-align: center;
+  }
+  
+  .notes-container {
+    margin-bottom: 20px;
+  }
+  
+  .note {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
